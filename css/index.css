@@ -1,0 +1,607 @@
+
+/*banner区*/
+.banner_wrapper{
+	position: relative;
+	height: 650px;
+}
+.banner_pic{
+	position: relative;
+	height: 650px;
+}
+.banner_pic li{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.banner_pic li:first-child{
+	display: block;
+}
+
+.banner_btn{
+	position: absolute;
+	z-index: 5;
+	left: 50%;
+	bottom: 20px;
+	margin-left: -75px;
+	width: 150px;
+	height: 30px;
+}
+.banner_btn li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 0px 15px;
+	border-radius: 50%;
+	text-align: center;
+	background: white;
+	opacity: .7;
+}
+
+.banner_btn li.active{
+	background: #FFE6C2;
+	opacity: .5;
+}
+
+/*banner区结束*/
+
+/*专业服务区*/
+.ps_wrapper{
+	padding: 40px 0px 50px;
+	box-sizing: border-box;
+}
+.ps_title--en{
+	width: 480px;
+	height: 80px;
+	padding-bottom: 18px;
+	box-sizing: border-box;
+	margin: 0px auto;
+}
+.ps_title--ch{
+	width: 260px;
+	height: 24px;
+	margin: 0px auto 36px;
+	text-align: center;
+	font-size: 20px;
+	color: #555555;
+	background: url(../img/title_background.png)no-repeat center center;
+}
+.ps_list{
+	width: 100%;
+	height: 138px;
+	margin: 0px 10px;
+}
+.ps_list li{
+	float: left;
+	width: 115px;
+	height: 136px;
+	margin-right: 16px;
+	border: 1px solid #cccccc;
+}
+.ps_list li:last-child{
+	margin-right: 0px;
+}
+.ps_list li:hover{
+    border-color: #e0e0e0;
+	box-shadow: 2px 2px 2px #e0e0e0;
+}
+.ps_list li:hover .ps_detail--text{
+	color: #ae8f63;
+}
+
+
+.ps_list li:first-child .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico1.png)no-repeat;
+}
+
+.ps_list li:first-child .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico11.png)no-repeat;
+}
+
+.ps_list li:nth-child(2) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico2.png)no-repeat;
+}
+
+.ps_list li:nth-child(2) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico22.jpg)no-repeat;
+}
+.ps_list li:nth-child(3) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico3.png)no-repeat;
+}
+
+.ps_list li:nth-child(3) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico33.png)no-repeat;
+}
+.ps_list li:nth-child(4) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico4.png)no-repeat;
+}
+
+.ps_list li:nth-child(4) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico44.png)no-repeat;
+}
+.ps_list li:nth-child(5) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico5.png)no-repeat;
+}
+
+.ps_list li:nth-child(5) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico55.png)no-repeat;
+}
+.ps_list li:nth-child(6) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico6.png)no-repeat;
+}
+
+.ps_list li:nth-child(6) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico66.png)no-repeat;
+}
+.ps_list li:nth-child(7) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico7.png)no-repeat;
+}
+
+.ps_list li:nth-child(7) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico77.png)no-repeat;
+}
+.ps_list li:nth-child(8) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico8.png)no-repeat;
+}
+
+.ps_list li:nth-child(8) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico88.png)no-repeat;
+}
+.ps_list li:nth-child(9) .ps_detail--pic{
+	width: 115px;
+	height: 110px;
+	background: url(../img/zyfw_ico9.png)no-repeat;
+}
+
+.ps_list li:nth-child(9) .ps_detail--pic:hover{
+	background: url(../img/zyfw_ico99.png)no-repeat;
+}
+
+.ps_detail--text{
+	width: 100%;
+	height: 26px;
+	font-size: 10px;
+	line-height: 26px;
+	text-align: center;
+	color: #737373;
+}
+
+/*专业服务区结束*/
+
+/*关于我们*/
+.au_warpper{
+	padding: 36px 0px 65px;
+	box-sizing: border-box;
+    background: #ffe6c2; 	
+}
+
+.au_title--en{
+	width: 480px;
+	height: 70px;
+	margin: 0px auto;
+}
+.au_title--ch{
+	width: 260px;
+	height: 24px;
+	margin: 22px auto 40px;
+	text-align: center;
+	line-height: 24px;
+	font-size: 20px;
+	color: #555555;
+	background: url(../img/title_background.png)no-repeat center center;
+}
+.au_content li{
+	width: 100%;
+	height: 250px;
+}
+.au_content li:after{
+	content: '';
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+}
+.au_content--text,
+.au_content--pic{
+	float: left;
+	width: 600px;
+	height: 250px;
+	
+}
+.au_text--ch{
+	width: 100%;
+	height: 24px;
+	margin-top: 32px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 20px;
+	color: #333;
+}
+.au_text--en{
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	color: #ae8f63;
+	text-align: center;
+}
+.au_text--content{
+	margin: 15px auto 0px;
+	width: 550px;
+	height: 106px;
+	color: #333333;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: center;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: pre-line;
+}
+.au_detail{
+	margin-top: 15px;
+	width: 100%;
+	text-align: center;
+}
+.au_detail a{
+	color: #333333;
+	letter-spacing: 5px;
+}
+/*关于我们结束*/
+
+/*证书培训*/
+.ct_wrapper{
+	padding: 50px 0px 55px;
+	box-sizing: border-box;
+}
+.ct_title--en{
+	width: 430px;
+	height: 85px;
+	margin: 0px auto;
+}
+.ct_title--ch{
+	width: 260px;
+	height: 24px;
+	margin: 0px auto 36px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #333333;
+	text-align: center;
+	background: url(../img/title_background.png)no-repeat center center;
+}
+.ct_body{
+	width: 100%;
+	height: 336px;
+}
+.ct_body li{
+	float: left;
+	margin-right: 20px;
+	width: 285px;
+	height: 100%;
+}
+.ct_body li:last-child{
+	margin-right: 0px;
+}
+.ct_content--pic{
+	width: 285px;
+	height: 200px;
+}
+.ct_content--text{
+	width: 285px;
+	height: auto;
+	text-align: center;
+}
+.ct_text--title{
+	width: 100%;
+	height: 24px;
+	margin: 16px 0px 12px;
+	line-height: 24px;
+	font-size: 20px;
+	color: #ae8f63;
+}
+.ct_text--content{
+	width: 100%;
+	color: #333333;
+	font-size: 16px;
+	line-height: 28px;
+}
+.ct_detail{
+	float: right;
+	color: #AE8F63;
+	text-align: right;
+}
+/*证书培训结束*/
+
+/*妈妈足迹*/
+.mt_wrapper{
+	height: auto;
+	padding: 55px 0px 74px;
+	box-sizing: border-box;
+	background: #ffe6c2;
+}
+.mt_title--en{
+	width: 350px;
+	height: 70px;
+	margin: 0px auto;
+}
+.mt_tilte--ch{
+	width: 260px;
+	height: 24px;
+	margin: 32px auto 20px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #333333;
+	text-align: center;
+	background: url(../img/title_background.png)no-repeat center center;
+}
+dl{
+	width: 100%;
+	height: auto;
+}
+dt{
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+
+.mt_tab--title{
+	width: 424px;
+	height: 36px;
+	margin: 0px auto;
+}
+.mt_tab--title li{
+	float: left;
+	width: 106px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+}
+.mt_tab--title li a{
+	display: block;
+	width: auto;
+	height: 36px;
+	color: #AE8F63;
+}
+.mt_tab--title li a:hover{
+	border-bottom: 1px solid #AE8F63;
+}
+
+dd{
+	width: 100%;
+	height: 500px;
+	margin-top: 22px;
+}
+.mt_tab--list{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.mt_tab--list:first-child{
+	display: block;
+}
+
+.mt_tab--list li{
+	float: left;
+	margin-right: 30px;
+	width: 380px;
+	height: 500px;
+}
+.mt_tab--list li:last-child{
+	margin-right: 0px;
+}
+
+.mt_list--pic{
+	width: 380px;
+	height: 250px;
+}
+.mt_list--text{
+	width: 380px;
+	height: 250px;
+	text-align: center;
+}
+
+.mt_text--title{
+	line-height: 50px;
+	font-size: 16px;
+	color: #AE8F63;
+}
+.mt_text--content{
+	width: 350px;
+	height: auto;
+	margin: 0px auto;
+	line-height: 24px;
+	font-size: 14px;
+	color: #333333;
+}
+.mt_text-more{
+	width: 100%;
+	height: 67px;
+	margin-top: 14px;
+	background: url(../img/mmzj_more1.png)no-repeat center center;
+}
+
+.mt_tab--list li:hover{
+	background: #AE8F63;
+}
+.mt_tab--list li:hover .mt_text--title{
+	color: white;
+}
+.mt_tab--list li:hover .mt_text--content{
+	color: white;
+}
+.mt_tab--list li:hover .mt_text-more{
+	background: url(../img/mmzj_more2.png)no-repeat center center;
+}
+
+/*妈妈足迹结束*/
+
+/*加盟国开园*/
+.join_wrapper{
+	padding: 72px 0px 50px;
+	box-sizing: border-box;
+}
+.join_title--en{
+	width: 625px;
+	height: 85px;
+	margin: 0px auto;
+}
+.join_title--ch{
+	width: 300px;
+	height: 24px;
+	margin: 20px auto 84px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #333333;
+	text-align: center;
+	background: url(../img/join_title_background.png)no-repeat center center;
+}
+.join_link{
+	width: 936px;
+	height: auto;
+	margin: 0px auto;
+}
+.join_link li{
+	float: left;
+	width: 468px;
+	height: 44px;
+	margin-bottom: 35px;
+	line-height: 44px;
+}
+.join_link li:after{
+	content: '';
+	display: block;
+	height: 0px;
+	visibility: hidden;
+	clear: both;
+}
+.join_link--icon{
+	float: left;
+	width: 44px;
+	height: 44px;
+	margin-right: 20px;
+}
+.join_link--text{
+	float: left;
+	color: #333333;
+	font-size: 14px;
+}
+
+/*在线留言*/
+.join_online{
+	width: 936px;
+	margin: 0px auto;
+}
+.online_title{
+	width: 100%;
+	height: 50px;
+}
+.online_title--ch{
+	height: 26px;
+	font-size: 24px;
+	color: #333333;
+}
+.online_title--en{
+	color: #999999;
+	font-size: 12px;
+	line-height: 24px;
+}
+.online_more{
+	float: right;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+.online_more--pic{
+	float: right;
+	width: 22px;
+	height: 20px;
+	margin-top: 4px;
+}
+.online_more--text{
+	float: right;
+	margin-left: 8px;
+	font-size: 20px;
+	color: #ae8f63;
+	width: 120px;
+	height: 40px;
+}
+.online_message--left{
+	float: left;
+	width: 442px;
+	height: auto;
+}
+.online_message--left input{
+	width: 440px;
+	height: 46px;
+	margin-bottom: 6px;
+	border: 1px solid #dadde3;
+	text-indent: 18px;
+	color: #999999;
+	font-size: 14px;
+	line-height: 46px;
+	outline: none;
+}
+
+.online_message--right{
+	float: right;
+	width: 456px;
+	height: 208px;
+	border: 1px solid #DADDE3;
+}
+
+.online_message--right textarea{
+	border: none;
+	outline: none;
+	resize: none;
+	width: 100%;
+	height: 100%;
+	padding: 10px 16px;
+	box-sizing: border-box;
+	line-height: 28px;
+	color: #999999;
+}
+.online_btn{
+	width: 100%;
+	height: 44px;
+	margin: 40px 0px 50px;
+	text-align: center;
+	line-height: 44px;
+}
+.online_btn button{
+	width: 140px;
+	height: 44px;
+	color: white;
+	border: 0px;
+	outline: none;
+	text-align: center;
+	line-height: 44px;
+	font-size: 18px;
+	background: #fb0f0f;
+}
+
+.online_btn button:hover{
+	cursor: pointer;
+}
+/*在线留言结束*/
+
+/*加盟国开园结束*/
+

@@ -1,0 +1,351 @@
+/*手机端样式*/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.header{
+		display: none;
+	}
+	.nav_wrapper{
+		display: none;
+	}
+	.footer_wrapper{
+		display: none;
+	}
+	
+	body{
+		padding-top: 40px;
+		padding-bottom: 56px;
+	}
+	
+	.sj_nav{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: auto;
+		z-index: 10;
+	}
+	
+	.nav_bar{
+		width: 100%;
+		padding: 0px 5%;
+		box-sizing: border-box;
+		height: 40px;
+		margin: 0px auto;
+	    background: #ae8f63;
+	}
+	.nav_bar--logo{
+		float: left;
+		width: 30px;
+		height: 30px;
+		margin: 5px 0px;
+		background: red;
+	}
+	.nav_bar--button{
+		float: right;
+		width: 30px;
+		height: 30px;
+		margin: 5px 0px;
+	}
+	.nav_bar--button span{
+		display: block;
+		width: 26px;
+		height: 3px;
+		margin: 4px;
+		background: white;
+	}
+	.nav_bar--content{
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.nav_bar--content > li{
+		position: relative;
+		width: 100%;
+		background-color: #ae8f63;
+		text-indent: 32px;
+		line-height: 30px;
+		border-bottom: 1px solid gainsboro;
+	}
+	
+	.nav_bar--content li a{
+		display: block;
+		color: white;
+		font-size: 14px;
+		-webkit-tap-highlight-color:rgba(255,0,0,0);
+	}
+	
+	
+	.second_list{
+		width: 100%;
+		background: gainsboro;
+		height: auto;
+		display: none;
+	}
+	.second_list li{
+		width: 100%;
+		height: 30px;
+		background: #d1bda1;
+		line-height: 30px;
+		font-size: 14px;
+		padding: 0px 20px;
+	}
+	.second_list li a{
+		color: white;
+	}
+	
+	
+	/*banner区*/
+	.banner_wrapper{
+		height: 170px;
+	}
+	.banner_pic{
+		height: 170px;
+	}
+	.banner_btn{
+		bottom: 0px;
+	}
+	
+	/*专业服务*/
+	.ps_wrapper{
+		width: 100%;
+		padding: 10px;
+		overflow: hidden;
+	}
+	.ps_title--en{
+		width: 100%;
+	}
+	.ps_title--ch{
+		margin-bottom: 16px;
+		font-size: 18px;
+	}
+	.ps_list{
+		margin: 0px;
+	}
+	.ps_list li{
+		width: 30%;
+		margin: 0 4% 3% 0;
+	}
+	.ps_list li:nth-child(3n){
+		margin-right: 0px;
+	}
+	
+	
+	/*关于我们*/
+	.au_warpper{
+		width: 100%;
+		padding: 10px 10px;
+		overflow: hidden;
+	}
+	.au_body{
+		width: 100%;
+
+	}
+	.au_title--en{
+		width: 100%;
+		
+	}
+	.au_title--ch{
+		font-size: 18px;
+		margin: 10px auto;
+	}
+	
+	.au_content li{
+	
+		float: none;
+	}
+	.au_content li:nth-child(2){
+		display: none;
+	}
+	.au_text--ch{
+		margin-top: 0px;
+		font-size: 18px;
+	}
+	.au_content--text,
+	.au_content--pic{
+	 	width: 100%;
+	 	height: 190px;
+	 }
+	 .au_text--en{
+	 	height: 20px;
+	 	font-size: 14px;
+	 	line-height: 20px;
+	 }
+	 .au_text--content{
+	 	width: 100%;
+	 	font-size: 14px;
+	 	white-space: normal;
+	 }
+	 .au_detail{
+	 	display: none;
+	 }
+	
+	
+	
+	/*证书培训*/
+	.ct_wrapper{
+		width: 100%;
+		padding: 10px 10px;
+	}
+	.ct_title--en{
+		width: 100%;
+	}
+	.ct_title--ch{
+		margin-bottom: 5px;
+	}
+	.ct_body li{
+		float: none;
+		width: 100%;
+		display: none;
+	}
+	.ct_body li:first-child{
+		display: block;
+	}
+	.ct_content--pic{
+		margin: 0px auto;
+	}
+	.ct_content--text{
+		margin: 0px auto;
+	}
+	.ct_detail{
+		float: none;
+	}
+	
+	
+	/*妈妈足迹*/
+	.mt_wrapper{
+		padding: 10px;
+	}
+	.mt_body{
+		width: 100%;
+	}
+	.mt_tilte--ch{
+		margin: 2px auto;
+		font-size: 18px;
+	}
+	.mt_tab--title{
+		width: 100%;
+	}
+	.mt_tab--title li{
+		width: 25%;
+	}
+	.mt_tab--list li{
+		width: 100%;
+		height: 420px;
+		display: none;
+	}
+	.mt_tab--list li:first-child{
+		display: block;
+	}
+	.mt_list--pic{
+		width: 100%;
+		height: 200px;
+	}
+	.mt_list--text{
+		width: 100%;
+	}
+	.mt_text--title{
+		line-height: 30px;
+	}
+	dd{
+		height: 420px;
+	}
+
+	
+	/*加入我们*/
+	.join_wrapper{
+		padding: 10px;
+		width: 100%;
+	}
+	.join_title--en{
+		width: 100%;
+	}
+	.join_title--ch{
+		margin: 10px auto;
+		font-size: 18px;
+	}
+	.join_link{
+		width: 100%;
+	}
+	.join_link li{
+		width: 100%;
+		padding: 0px 10%;
+		margin-bottom: 10px;
+	}
+	.join_online{
+		width: 100%;
+	}
+	.online_more--text{
+		font-size: 16px;
+	}
+	.online_message--left{
+		float: none;
+		width: 100%;
+	}
+	.online_message--left input{
+		width: 100%;
+		height: 30px;
+	}
+	.online_message--right{
+		float: none;
+		width: 100%;
+		height: 160px;
+	}
+	.online_title--ch{
+		font-size: 20px;
+	}
+	.online_btn{
+		margin: 10px auto;
+	}
+	
+	/*底部*/
+    .sj_footer{
+    	position: fixed;
+    	bottom: 0;
+    	left: 0;
+		width: 100%;
+		height: auto;
+    }
+	.pho_footer{
+		width: 100%;
+		height: auto;
+	}
+	.pho_footer ul{
+		width: 100%;
+		height: 56px;
+		background: #ae8f63;
+	}
+	.pho_footer ul li{
+		width: 25%;
+		height: 56px;
+		float: left;
+		text-align: center;
+	}
+	.pho_footer ul li a{
+		display: block;
+		width: 100%;
+		height: 56px;
+		color: white;
+	}
+	
+	.fIcon_pic img{
+		width: 32px;
+		height: 32px;
+	}
+	.pho_footer ul li a:hover{
+		color: #333333;
+	}
+	
+	.fIcon_pic{
+		width: 100%;
+		height: 32px;
+		text-align: center;
+	}
+	.fIcon_text{
+		width: 100%;
+		height: 24px;
+		line-height: 24px;
+		text-align: center;
+		font-size: 12px;
+	}
+		
+	
+}
