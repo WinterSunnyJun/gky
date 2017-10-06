@@ -297,6 +297,7 @@
 	width: 285px;
 	height: 100%;
 }
+
 .ct_body li:last-child{
 	margin-right: 0px;
 }
@@ -319,13 +320,16 @@
 }
 .ct_text--content{
 	width: 100%;
-	color: #333333;
+	color: #333333 !important;
 	font-size: 16px;
 	line-height: 28px;
 }
+.ct_text--content a{
+	color: #333333;
+}
 .ct_detail{
 	float: right;
-	color: #AE8F63;
+	color: #AE8F63 !important;
 	text-align: right;
 }
 /*证书培训结束*/
