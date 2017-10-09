@@ -58,7 +58,18 @@ $(function () {
     })
 
 	   // 周到的服务
+    $(".goodfw-list").bxSlider({
+        mode: 'horizontal',
+        moveSlides: 3,
+        minSlides: 3,
+        maxSlides: 3,
+        slideWidth: 320,
+        speed: 800,
+    })
+    $(".goodfw-body .bx-prev").html("<span> &lt; </span>");
+    $(".goodfw-body .bx-next").html("<span> &gt; </span>");
 
+    $(".goodfw-body .bx-pager-link").html(" ");
 
     // var fwaBox = $(".goodfw-list li");
     // var fwaBtn = $(".goodfw-btn li");
@@ -101,7 +112,8 @@ $(function () {
 		slideWidth: 240,
         speed: 800,
 	})
-
+    $(".honor-wrapper .bx-prev").html("<span> &lt; </span>");
+    $(".honor-wrapper .bx-next").html("<span> &gt; </span>");
     // 证书培训
 	 //  证书展示
     $("#zszs").bxSlider({
@@ -180,6 +192,30 @@ $(function () {
         minSlides: 1,
         maxSlides: 1,
         slideWidth: 680,
+        speed: 500,
+    })
+
+    $(".gxx-btn-list").bxSlider({
+        mode: 'horizontal',
+        moveSlides: 5,
+        minSlides: 5,
+        maxSlides: 5,
+        slideWidth: 196,
         speed: 800,
     })
+
+      // 点滴瞬间
+    $(".ddsj-list").bxSlider({
+        mode: 'horizontal',
+        moveSlides: 3,
+        minSlides: 3,
+        maxSlides: 3,
+        slideWidth: 320,
+        speed: 800,
+    })
+    $(".ddsj-body .bx-prev").html("<span> &lt; </span>");
+    $(".ddsj-body .bx-next").html("<span> &gt; </span>");
+
+    $(".ddsj-body .bx-pager-link").html(" ");
+
 })

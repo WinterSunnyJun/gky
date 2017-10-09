@@ -22,7 +22,6 @@
 	text-indent: 18px;
 	border-bottom: 1px solid #FFFFFF;
 }
-
 .sidebar li a{
 	display: block;
 	width: 100%;
@@ -32,10 +31,6 @@
    	color: #FFFFFF;
    	background: #ae8f63 url(../img/baiarrow.png)no-repeat 80% center;
 }
-
-
-
-
 /*关于我们*/
 .au-wrapper{
 	margin-top: 40px;
@@ -189,6 +184,9 @@
 	color: #333333;
 	font-size: 18px;
 	text-indent: 60px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .spacialfw-btn ol li.active{
 	color: #FFFFFF;
@@ -265,28 +263,10 @@
 .goodfw-list li:hover .goodfw-item-text h5{
 	color: #FFFFFF;
 }
-.goodfw-btn{
-	width: 93px;
-	height: 25px;
-	margin: 0 auto;
-}
-.goodfw-btn li{
-	float: left;
-	margin: 0 3px;
-	width: 25px;
-	height: 25px;
-    border-radius: 50%;
-    background: #cbc9c9;
-}
-.goodfw-btn li.active{
-	background: #AE8F63;
-}
-.goodfw-arrow{
+.goodfw-body .bx-prev,
+.goodfw-body .bx-next{
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
-}
-.goodfw-arrow span{
+	bottom: 0;
 	display: inline-block;
 	margin-right: 25px;
 	width: 35px;
@@ -296,6 +276,39 @@
 	color: #FFFFFF;
 	border-radius: 5px;
 	font-size: 16px;
+	background: #AE8F63;
+}
+.goodfw-body .bx-prev{
+	right: 50px;
+}
+.goodfw-body .bx-next{
+	right: 0;
+}
+.goodfw-body .bx-pager{
+	display: block !important;
+}
+.goodfw-body .bx-pager{
+	width: 93px;
+	height: 25px;
+	margin: 30px auto 0;
+}
+.goodfw-body .bx-pager .bx-pager-item{
+	float: left;
+	margin: 0 3px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #cbc9c9;
+}
+.goodfw-body .bx-pager-item .bx-pager-link{
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #cbc9c9;
+}
+
+.goodfw-body .bx-pager-item .bx-pager-link.active{
 	background: #AE8F63;
 }
 /*周到的服务结束*/
@@ -840,33 +853,34 @@
 	width: 100%;
 	height: 848px;
 }
+.gxx-slide .bx-wrapper{
+	margin: 0 auto;
+}
+
 .gxx-slide-list{
 	width: 680px;
-	height: 100%;
+	height: 848px;
 	margin: 0 auto;
 }
 .gxx-slide-list li{
-	display: none;
+	float: left;
 	width: 100%;
 	height: 100%;
 }
-.gxx-slide-list li:first-child{
-	display: block;
-}
-.gxx-lg-left,
-.gxx-lg-right{
+.gxx-slide .bx-prev,
+.gxx-slide .bx-next{
 	position: absolute;
 	display: block;
-	width: 73px;
-	height: 73px;
+	width: 36px;
+	height: 36px;
 	top: 50%;
-	margin-top: -36px;
+	margin-top: -18px;
 }
-.gxx-lg-left{
+.gxx-slide .bx-prev{
 	left: 0;
 	background: url(../img/l-lg.png)no-repeat center center;
 }
-.gxx-lg-right{
+.gxx-slide .bx-next{
 	right: 0;
 	background: url(../img/r-lg.png)no-repeat center center;
 }
@@ -880,6 +894,7 @@
 	width: 99%;
 	height: 100%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .gxx-btn-list li{
 	float: left;
@@ -888,14 +903,14 @@
 	height: 148px;
 	border: 1px solid gray;
 }
-.gxx-btn-list li:last-child{
+.gxx-btn-list li:nth-child(5n){
 	margin-right: 0;
 }
 .gxx-btn-list li.active{
 	box-shadow: 3px 3px 5px #CCCCCC;
 }
-.gxx-sm-left,
-.gxx-sm-right{
+.gxx-btn .bx-prev,
+.gxx-btn .bx-next{
 	position: absolute;
 	display: block;
 	width: 22px;
@@ -903,11 +918,11 @@
 	top: 50%;
 	margin-top: -11px;
 }
-.gxx-sm-left{
+.gxx-btn .bx-prev{
 	left: 0;
 	background: url(../img/left-sm.png)no-repeat center center;
 }
-.gxx-sm-right{
+.gxx-btn .bx-next{
 	right: 0;
 	background: url(../img/right-sm.png)no-repeat center center;
 }
@@ -981,28 +996,10 @@
 .ddsj-list li:hover .ddsj-item-text h5{
 	color: #FFFFFF;
 }
-.ddsj-btn{
-	width: 93px;
-	height: 25px;
-	margin: 0 auto;
-}
-.ddsj-btn li{
-	float: left;
-	margin: 0 3px;
-	width: 25px;
-	height: 25px;
-    border-radius: 50%;
-    background: #cbc9c9;
-}
-.ddsj-btn li.active{
-	background: #AE8F63;
-}
-.ddsj-arrow{
+.ddsj-body .bx-prev,
+.ddsj-body .bx-next{
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
-}
-.ddsj-arrow span{
+	bottom: 0;
 	display: inline-block;
 	margin-right: 25px;
 	width: 35px;
@@ -1014,6 +1011,40 @@
 	font-size: 16px;
 	background: #AE8F63;
 }
+.ddsj-body .bx-prev{
+	right: 50px;
+}
+.ddsj-body .bx-next{
+	right: 0;
+}
+.ddsj-body .bx-pager{
+	display: block !important;
+}
+.ddsj-body .bx-pager{
+	width: 93px;
+	height: 25px;
+	margin: 30px auto 0;
+}
+.ddsj-body .bx-pager .bx-pager-item{
+	float: left;
+	margin: 0 3px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #cbc9c9;
+}
+.ddsj-body .bx-pager-item .bx-pager-link{
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background: #cbc9c9;
+}
+
+.ddsj-body .bx-pager-item .bx-pager-link.active{
+	background: #AE8F63;
+}
+
 /*点滴瞬间结束*/
 /*温馨日话*/
 .wxrh-wrapper{
@@ -2226,4 +2257,13 @@
 .jczs-content .bx-wrapper{
 	max-width: 93% !important;
 	margin: 0 auto;
+}
+.gxx-btn .bx-wrapper{
+	max-width: 100% !important;
+}
+.ddsj-body .bx-wrapper{
+	max-width: 100% !important;
+}
+.goodfw-body .bx-wrapper{
+	max-width: 100% !important;
 }
