@@ -385,10 +385,9 @@ dt{
 	height: 36px;
 	color: #AE8F63;
 }
-.mt_tab--title li a:hover{
+.mt_tab--title li.active{
 	border-bottom: 1px solid #AE8F63;
 }
-
 dd{
 	width: 100%;
 	height: 500px;
