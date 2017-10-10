@@ -93,6 +93,36 @@
 	color: #AE8F63;
 	font-size: 16px;
 }
+.nav > li.active > a{
+	display: block;
+	width: 155px;
+	height: 100%;
+	margin: 0px auto;
+	color: white;
+	background: #AE8F63;
+}
+.nav > li.active > a:before{
+	position: absolute;
+	content: '';
+	top: 0px;
+	left: -12px;
+	width: 0;
+	height: 0;
+	border-bottom: 45px solid #AE8F63;
+	border-left: 16px solid transparent;
+	z-index: 5;
+}
+.nav > li.active > a:after{
+	position: absolute;
+	content: '';
+	top: 0px;
+	right: -12px;
+	width: 0;
+	height: 0;
+	border-top: 45px solid #AE8F63;
+	border-right: 16px solid transparent;
+	z-index: 5;
+}
 .nav > li > a:hover{
 	display: block;
 	width: 155px;
@@ -110,6 +140,7 @@
 	height: 0;
 	border-bottom: 45px solid #AE8F63;
 	border-left: 16px solid transparent;
+	z-index: 5;
 }
 .nav > li > a:hover:after{
 	position: absolute;
@@ -120,7 +151,9 @@
 	height: 0;
 	border-top: 45px solid #AE8F63;
 	border-right: 16px solid transparent;
+	z-index: 5;
 }
+
 
 .nav_down{
 	position: absolute;

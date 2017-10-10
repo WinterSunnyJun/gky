@@ -1310,11 +1310,19 @@
 .yzss-ball ul{
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 }
 .yzss-ball ul li{
 	float: left;
 	width: 33.33%;
 	height: 100%;
+	transition: margin-top 1s;
+}
+.yzss-ball > ul li.active{
+	margin-top: 40px;
+}
+.yzss-ball > ul li.active .ball-mask{
+	display: none;
 }
 .yzss-ball ul li:after{
 	content: '';
@@ -1332,7 +1340,6 @@
 }
 .ball-mask{
 	position: absolute;
-	display: none;
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -1340,9 +1347,7 @@
 	background: rgba(50,50,50,.4);
 	z-index: 1;
 }
-.yzss-ball-pic:hover .ball-mask{
-	display: block;
-}
+
 
 .yzss-ball-title{
 	position: absolute;
@@ -1356,13 +1361,28 @@
 	font-size: 20px;
 }
 .ball-center{
-	margin: 40px auto 0;
+	/*margin: 40px auto 0;*/
+    margin: 0 auto;
 }
+
 .yzss-content{
 	height: 480px;
 	margin-top: 35px;
 	background: url(../img/yzss-bg.png)no-repeat center center;
 }
+.yzss-content > ul{
+	width: 100%;
+	height:100%;
+}
+.yzss-content > ul li{
+	display: none;
+	width: 100%;
+	height:100%;
+}
+.yzss-content > ul li:nth-child(2){
+	display: block;
+}
+
 .yzss-pic-bg{
 	position: relative;
 	width: 455px;

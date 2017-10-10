@@ -8,6 +8,10 @@ $(function () {
 	},function () {
         iNOW.find('.nav_down').slideUp('fast');
 	})
+
+    $(".nav > li").click(function () {
+        $(this).addClass('active').siblings().removeClass('active');
+    })
 	
 	/*首页banner*/
 	$('.banner_btn li').click(function () {
@@ -154,13 +158,22 @@ $(function () {
     	$('.banner-content-list li').eq(svNow).show().siblings().hide();
     	$('.banner-bg-list li').eq(svNow).show().siblings().hide();
     });
-    
+
+    //专业服务之月子膳食
+    $(".yzss-ball ul li").click(function () {
+        var ssNow = $(this).index();
+        $(".yzss-ball ul li").eq(ssNow).addClass('active').siblings().removeClass('active');
+        $(".yzss-content ul li").eq(ssNow).show().siblings().hide();
+    })
+
     //专业服务之精品套餐
     $('.jptc-btn-list li').click(function(){
     	var tcNow = $(this).index();
     	$('.jptc-pic-list li').eq(tcNow).show().siblings().hide();
     	$('.jptc-show-title ul li').eq(tcNow).show().siblings().hide();
     })
+
+
 
     // 妈妈足迹
         //视频中心
