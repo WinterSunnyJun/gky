@@ -1,11 +1,14 @@
 /*内页公共样式*/
-.banner_wrapper{
-	height: 650px;
-}
-.w1010{
-	float: right;
-	width: 1010px;
-}
+	.banner_wrapper{
+		height: 650px;
+	}
+	.w1010{
+		float: right;
+		width: 1010px;
+	}
+
+
+
 .sidebar{
 	width: 180px;
 	height: auto;
@@ -2348,3 +2351,4 @@
 .goodfw-body .bx-wrapper{
 	max-width: 100% !important;
 }
+
