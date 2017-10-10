@@ -215,7 +215,46 @@ $(function () {
     })
     $(".ddsj-body .bx-prev").html("<span> &lt; </span>");
     $(".ddsj-body .bx-next").html("<span> &gt; </span>");
+    $(".ddsj-body .bx-pager .bx-pager-link").html(" ");
+      // 温馨日话
+    var wxBox = $(".wxrh-item-text1 ol li");
+    var wxBtn = $(".wxrh-item-pic1 ol li");
+    var wxNow = 0;
+    $(".wxrh-left").click(function () {
+         wxNow--;
+         if (wxNow < 0){
+             wxNow = wxBtn.length - 1;
+         }
+         wxBtn.eq(wxNow).show().siblings().hide();
+         wxBox.eq(wxNow).show().siblings().hide();
+    })
+    $(".wxrh-right").click(function () {
+        wxNow++;
+        if (wxNow > wxBtn.length -1){
+            wxNow = 0;
+        }
+        wxBtn.eq(wxNow).show().siblings().hide();
+        wxBox.eq(wxNow).show().siblings().hide();
+    })
 
-    $(".ddsj-body .bx-pager-link").html(" ");
+    var wxBox2 = $("#wxrh-item-text2 ol li");
+    var wxBtn2 = $("#wxrh-item-pic2 ol li");
+    var wxNow2 = 0;
+    $(".wxrh-left2").click(function () {
+        wxNow2--;
+        if (wxNow2 < 0){
+            wxNow2 = wxBtn2.length - 1;
+        }
+        wxBtn2.eq(wxNow2).show().siblings().hide();
+        wxBox2.eq(wxNow2).show().siblings().hide();
+    })
+    $(".wxrh-right2").click(function () {
+        wxNow2++;
+        if (wxNow2 > wxBtn2.length -1){
+            wxNow2 = 0;
+        }
+        wxBtn2.eq(wxNow2).show().siblings().hide();
+        wxBox2.eq(wxNow2).show().siblings().hide();
+    })
 
 })
