@@ -618,4 +618,193 @@
 	.jptc-btn-list li:nth-child(2n){
 		margin-right: 0;
 	}
+	.jptc-show-title{
+		margin-top: 275px;
+		height: 120px;
+	}
+	.jptc-show-title ul{
+		width: 100%;
+		height: 120px;
+		margin-top: 45px;
+	}
+	.jptc-show-title ul li{
+		font-size: 22px;
+	}
+	.jptc-show-item ul li.mmhl{
+		font-size: 14px;
+	}
+	.jptc-show-item ul li{
+		padding: 0 5px;
+		line-height: 20px;
+	}
+	.jptc-show-item ol li.bbhl{
+		font-size: 14px;
+	}
+	.jptc-show-item ol li{
+		padding: 0 5px;
+		line-height: 20px;
+	}
+	/*证书培训*/
+	.zspx-banner{
+		height: 170px;
+	}
+	.zspx-body{
+		margin-top: 20px;
+		width: 100%;
+		padding: 0 2%;
+		box-sizing: border-box;
+	}
+	.pxzx-title-en{
+		width: 100%;
+	}
+	.pxzx-title-ch{
+		width: 100%;
+	}
+	.pxzx-body{
+		width: 100%;
+		margin-top: 20px;
+		height: auto;
+	}
+	.pxzx-pic{
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.pxzx-text{
+		float: none;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.pxzx-text p{
+		margin-top: 10px;
+		line-height: 20px;
+	}
+	.zszs-wrapper{
+		margin-top: 20px;
+	}
+	.zszs-title-en{
+		width: 100%;
+	}
+	.zszs-content{
+		margin-top: 20px;
+		height: 70px;
+	}
+	.zszs-content ul li:nth-child(4n){
+		margin-right: 3px;
+	}
+	.zszs-content ul li:nth-child(4n+1){
+		margin-left: 3px;
+	}
+	.zszs-content .bx-wrapper{
+		max-width: 100% !important;
+	}
+	.zszs-content ul li{
+		margin-right: 0px;
+	}
+	.zszs-content .bx-prev,
+	.zszs-content .bx-next{
+		top: 70px;
+		width: 8%;
+	}
+	.jczs-wrapper{
+		margin-top: 80px;
+	}
+	.jczs-title-en{
+		width: 100%;
+	}
+	.jczs-title-ch{
+		width: 100%;
+	}
+	.jczs-content{
+		margin-top: 20px;
+		height: 70px;
+	}
+	.jczs-content ul li:nth-child(4n){
+		margin-right: 3px;
+	}
+	.jczs-content ul li:nth-child(4n+1){
+		margin-left: 3px;
+	}
+	.jczs-content .bx-wrapper{
+		max-width: 100% !important;
+	}
+	.jczs-content ul li{
+		margin-right: 0px;
+	}
+	.jczs-content .bx-prev,
+	.jczs-content .bx-next{
+		top: 70px;
+		width: 8%;
+	}
+	.bmfs-wrapper{
+		margin-top: 80px;
+	}
+	.bmfs-title-en{
+		width: 100%;
+	}
+	.bmfs-title-ch{
+		width: 100%;
+	}
+	.bmfs-info-wrapper{
+		margin-top: 10px;
+	}
+	.bmfs-info-list li{
+		margin-bottom: 15px;
+		float: none;
+		width: 100%;
+		padding-left: 25px;
+	}
+	.bmfs-info-list li span{
+		width: 40px;
+		height: 40px;
+		margin-right: 16px;
+	}
+	.bmfs-info-list li label{
+		width: 72px;
+		line-height: 40px;
+	}
+	.bmfs-info-list li input{
+		width: 160px;
+		height: 28px;
+	}
+	.bmfs-info-wrapper button{
+		margin: 10px auto;
+	}
+	/*妈妈足迹*/
+	.vedio-title-wrapper{
+		margin-top: 20px;
+	}
+	.vedio-title-wrapper > .w1200{
+		width: 100%;
+	}
+	.mom-vedio-en{
+		width: 100%;
+	}
+	.mom-vedio-wrapper{
+		height:auto;
+	}
+	.mom-vedio-list{
+		height: 250px;
+	}
+	.vedio-item-text{
+		width: 40%;
+	}
+	.vedio-item-text p{
+		width: 100%;
+		margin: 0;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.vedio-item-box{
+		width: 60%;
+	}
+	.mom-vedio-wrapper > .w1200{
+		width: 100%;
+	}
+	.vedio-item-box h5{
+		margin: 10px auto;
+	}
+	.vedio-item-vedio{
+		height: 180px;
+	}
 }
