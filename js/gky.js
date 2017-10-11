@@ -12,6 +12,14 @@ $(function () {
     $(".nav > li").click(function () {
         $(this).addClass('active').siblings().removeClass('active');
     })
+
+    //返回顶部
+    $(".go-top").click(function () {
+        $('body').animate({
+            scrollTop: '0'
+        },800);
+    })
+
 	
 	/*首页banner*/
 	$('.banner_btn li').click(function () {

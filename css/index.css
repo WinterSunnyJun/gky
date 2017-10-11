@@ -608,3 +608,56 @@ dd{
 
 /*加盟国开园结束*/
 
+
+/*在线客服*/
+.hot-line{
+	position: fixed;
+	top: 50%;
+	margin-top: -120px;
+	right: 20px;
+	width: 60px;
+	height:auto;
+}
+.hot-line ul{
+	position: relative;
+	width: 100%;
+	height:auto;
+}
+.hot-line ul li{
+	width: 60px;
+	height:60px;
+	background: #ae8f63;
+	margin-bottom: 6px;
+}
+.hot-line ul li:hover{
+	background: #836841;
+}
+.hot-item-show{
+	display: none;
+	position: absolute;
+	left: -200px;
+	top: 0;
+	width: 192px;
+	height: 226px;
+	background: #ae8f63;
+}
+.hot-show-pic{
+	width: 183px;
+	height: 183px;
+	margin: 5px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 183px;
+}
+.hot-show-text{
+	width: 100%;
+	height: 32px;
+	text-align: center;
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+}
+.hot-line ul li:hover >.hot-item-show{
+	display: block;
+}
